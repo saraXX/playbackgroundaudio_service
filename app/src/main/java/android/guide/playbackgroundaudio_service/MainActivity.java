@@ -22,12 +22,15 @@ Button start,stop,next;
         start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+//  TODO 3 start service
                 startService(new Intent(MainActivity.this, MyAudioService.class));
             }
         });
         stop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+//  TODO 4 stop service
+
                 stopService(new Intent(MainActivity.this, MyAudioService.class));
             }
         });

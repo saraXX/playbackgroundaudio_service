@@ -19,6 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".NextActivity"/>
+<!--TODO 2 Define service on manifest file -->
         <service android:name=".MyAudioService"
             android:enabled="true"/>
     </application>
